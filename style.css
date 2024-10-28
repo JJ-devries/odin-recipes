@@ -1,22 +1,106 @@
 body {
-    margin: 0%;
+    margin: 0;
     background-color: aquamarine;
 }
 
-div {
+.header.index {
+    height: 350px;
+    font-size: 300px;
+    margin-bottom: 30px;
+    
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200px;
+}
+
+li, a {
+    color: black;
+}
+
+.header {
+    background: rgb(187, 209, 172);
+    padding: 30px;
+    text-align: center;
+    margin: 0%;
+    font-size: 80px;
+    height: 350px;
+}
+
+.menu {
+    height: 80px;
+    background: rgb(219, 205, 213);
+    justify-content: left;
+    align-items: left;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#subtitle {
+    font-size: 50px;
+    text-align: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 250px;
+    margin-top: 13%;
+    background-color: rgb(187, 209, 172);
+    padding: 15px;
+    justify-content: center;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+
+.column {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
-h1 {
-    font-size: 200px;
-    font-weight: bold;
+.column.list {
+    justify-content: left;
+    background-color: rgb(187, 209, 172);
+    margin: 30px;
+    font-size: 30px;
+    border-radius: 50%;
+    height: 700px;
+    width: 550px;
 }
 
-li, a {
-    font-size: 80px;
-    color: black;
+
+#image-curry {
+    height: auto;
+    width: 800px;
+    border-radius: 10%;
 }
 
+
+#home {
+    height: 69px;
+    width: 80px;
+    margin: 0%;
+    align-self: left;
+    padding-top: 12px;
+    padding-left: 5px;
+}
+
+#home:hover {
+    background-color: aquamarine;
+}
