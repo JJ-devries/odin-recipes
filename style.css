@@ -52,6 +52,16 @@ h2 {
     text-align: center;
 }
 
+.description.braised-beef {
+    height: 300px;
+    margin-top: 10%;
+}
+
+.description.lasagna {
+    height: 400px;
+    margin-top: 10%;
+}
+
 .description {
     display: flex;
     flex-direction: column;
@@ -82,6 +92,16 @@ h2 {
     border-radius: 50%;
     height: 700px;
     width: 550px;
+}
+
+.column.list-braised {
+    justify-content: left;
+    background-color: rgb(187, 209, 172);
+    margin: 30px;
+    font-size: 30px;
+    border-radius: 40%;
+    height: 1000px;
+    width: 1000px;
 }
 
 
