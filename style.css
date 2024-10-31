@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: aquamarine;
+   
 }
 
 .header.index {
@@ -19,6 +20,16 @@ body {
 
 li, a {
     color: black;
+}
+
+#work {
+    display: block;
+    border-style: groove;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding: 200px;
+    background-color: rgb(187, 209, 172);
+    border-radius: 50%;
 }
 
 .header {
@@ -113,14 +124,19 @@ h2 {
 
 
 #home {
-    height: 69px;
-    width: 80px;
+    height: 55px;
+    width: auto;
     margin: 0%;
     align-self: left;
-    padding-top: 12px;
-    padding-left: 5px;
+    display: inline-block;
+    padding: 12px 5px;
 }
 
 #home:hover {
     background-color: aquamarine;
 }
+
+#work:hover {
+    background-color: aquamarine;
+}
+
